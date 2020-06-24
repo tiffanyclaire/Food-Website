@@ -1,0 +1,69 @@
+
+/* Variables */
+
+$colour-primary: #000000;
+$colour-secondary: #FFFFFF;
+$colour-highlight1: #3CB371;
+$font-weights: (
+   "regular": 400,
+   "medium": 500,
+   "bold": 700,
+
+);
+
+
+/* Header */
+
+$header-lineheight: 1.4;
+
+$header-styles: (
+  small: (
+   'h1': ('font-size': 24px),
+   'h2': ('font-size': 20px),
+   'h3': ('font-size': 19px),
+   'h4': ('font-size': 18px),
+   'h5': ('font-size': 17px),
+   'h6': ('font-size': 16px),
+
+ ),
+  medium: (
+   'h1': ('font-size': 48px),
+   'h2': ('font-size': 40px),
+   'h3': ('font-size': 31px),
+   'h4': ('font-size': 25px),
+   'h5': ('font-size': 20px),
+   'h6': ('font-size': 16px),
+  ),
+);
+
+/* Paragraph */
+
+/* Links */
+$link-color: #3CB371;
+
+
+
+body {
+   background: $colour-secondary; 
+   color: $colour-primary
+
+   a{
+
+    color: $link-color;
+
+
+   
+ 
+ }
+    
+
+
+.main {
+    margin: 0 auto;	
+
+}
+   
+   p{
+   font-weight: map-get($font-weights, regular);
+   }
+}
