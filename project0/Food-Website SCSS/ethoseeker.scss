@@ -74,9 +74,8 @@ body{
 
 .shop-local-cta-wrapper{
 
-  padding: 60px;
+  padding: 95px;
   text-align: center;
-
   a{
     color: $cta-link-colour;
 
@@ -91,4 +90,54 @@ body{
 .shop-local-cta-wrapper h3{
   color: white;
 
+}
+
+/*inheritance buttons*/
+
+%message{
+
+  font-family: poppins;
+  font-size: 18px;
+  color: white;
+  border: 1px, black;
+  padding: 15px;
+  width: 10%;
+  text-align: center;
+  margin: 10px;
+
+
+ 
+}
+
+
+.vegan {
+  @extend %message;
+  background-color: #f21d1d;
+
+}
+
+.dairy-free {
+  @extend %message;
+  background-color: #0f94fa;
+}
+
+.gluten-free {
+  @extend %message;
+  background-color: #b09153;
+
+}
+
+.vegetarian{
+  @extend %message;
+  background-color: #41bf78;
+
+}
+
+.diet-options{
+
+  .vegetarian .vegan .dairy-free .gluten-free{
+    display: inline;
+
+
+  }
 }
