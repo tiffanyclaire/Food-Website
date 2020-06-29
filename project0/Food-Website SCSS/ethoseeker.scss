@@ -1,67 +1,94 @@
 
 /* Variables */
-
+$primary-font: poppins;
 $colour-primary: #000000;
 $colour-secondary: #FFFFFF;
-$colour-highlight1: #3CB371;
-$font-weights: (
-   "regular": 400,
-   "medium": 500,
-   "bold": 700,
+$colour-accent: #5cc489;
 
-);
+
+/* Link Colours */
+$link-colour: #000000;
+$link-hover: #41bf78;
+
+
+
+/* CTA Link Colours */
+$cta-link-colour: #FFFFFF;
+$cta-link-hover: #000000;
 
 
 /* Header */
 
 $header-lineheight: 1.4;
 
-$header-styles: (
-  small: (
-   'h1': ('font-size': 24px),
-   'h2': ('font-size': 20px),
-   'h3': ('font-size': 19px),
-   'h4': ('font-size': 18px),
-   'h5': ('font-size': 17px),
-   'h6': ('font-size': 16px),
 
- ),
-  medium: (
-   'h1': ('font-size': 48px),
-   'h2': ('font-size': 40px),
-   'h3': ('font-size': 31px),
-   'h4': ('font-size': 25px),
-   'h5': ('font-size': 20px),
-   'h6': ('font-size': 16px),
-  ),
-);
+body{
+  font-family: $primary-font !important;
+}
 
-/* Paragraph */
-
-/* Links */
-$link-color: #3CB371;
-
-
-
-body {
-   background: $colour-secondary; 
-   color: $colour-primary
-
-   a{
-
-    color: $link-color;
-
- }
-    
-
-
-.main {
+.main{
     margin: 0 auto;	
+    font-family: $primary-font;
 
 }
    
-   p{
-   font-weight: map-get($font-weights, regular);
-   }
+
+/* navbar links */
+.navbar{
+
+  .navbar-collapse{
+
+    li{
+
+      a{
+        color: $link-colour !important;
+
+        &:hover{
+          color: $link-hover !important;
+
+        &:visited{
+          color: $link-hover !important;
+
+        &:active{
+          color: $link-hover !important;
+        }
+        }
+
+        }
+      }
+    }
+  }
 }
 
+
+
+
+/* shop local cta*/
+
+#shop-local-cta{
+  background-color: $colour-accent;
+  font-family: $primary-font;
+
+}
+
+
+.shop-local-cta-wrapper{
+
+  padding: 60px;
+  text-align: center;
+
+  a{
+    color: $cta-link-colour;
+
+  a:hover {
+
+  color: $cta-link-hover  !important;
+  text-decoration: none !important;
+    }
+  }
+}
+
+.shop-local-cta-wrapper h3{
+  color: white;
+
+}
