@@ -31,7 +31,7 @@ body{
 .jumbotron {
 	align-items: center;
 	display: flex;
-	background: url(Images/Home_Banner.png);
+	background: url(../Images/Home_Banner.png);
 	background-size: cover;
 	height: 70vh;
 	color: white;
@@ -82,7 +82,7 @@ body{
 	margin-top: 0px;
 	margin-bottom: 0px;
 	width: 100%;
-	background-image: url(Images/Shop%20Local/ShopLocalBanner.png);
+	background-image: url(../Images/Shop%20Local/ShopLocalBanner.png);
 	background-size: cover
 
 }
@@ -100,7 +100,7 @@ body{
 
 .carbon-footprint-banner {
 	height:500px;
-	background-image: url(Images/Carbon%20Footprint/CarbonFootprintBanner.png);
+	background-image: url(../Images/Carbon%20Footprint/CarbonFootprintBanner.png);
 	display: block;
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -118,7 +118,7 @@ body{
 	margin-top: 0px;
 	margin-bottom: 0px;
 	width: 100%;
-	background-image: url(Images/Sustainable%20Diets/piqsels.com-id-sipsz.jpg);
+	background-image: url(../Images/Sustainable%20Diets/piqsels.com-id-sipsz.jpg);
 	background-size: 100%;
 
 
@@ -151,7 +151,7 @@ body{
 	margin-top: 0px;
 	margin-bottom: 0px;
 	width: 100%;
-	background-image: url(Images/About/piqsels.com-id-szqru.jpg);
+	background-image: url(../Images/About/piqsels.com-id-szqru.jpg);
 	background-size: 100%;
 
 
@@ -179,7 +179,7 @@ body{
 	margin-top: 0px;
 	margin-bottom: 0px;
 	width: 100%;
-	background-image: url(Images/Climate%20Change/piqsels.com-id-zucwt.jpg);
+	background-image: url(../Images/Climate%20Change/piqsels.com-id-zucwt.jpg);
 	background-size: 100%;
 
 
@@ -208,7 +208,7 @@ body{
 	margin-top: 0px;
 	margin-bottom: 0px;
 	width: 100%;
-	background-image: url(Images/Livestock/piqsels.com-id-zkyvr.jpg);
+	background-image: url(../Images/Livestock/piqsels.com-id-zkyvr.jpg);
 	background-size: 100%;
 
 
@@ -238,7 +238,7 @@ body{
 	margin-top: 0px;
 	margin-bottom: 0px;
 	width: 100%;
-	background-image: url(Images/Food%20Security/piqsels.com-id-sidje.jpg);
+	background-image: url(../Images/Food%20Security/piqsels.com-id-sidje.jpg);
 	background-size: 100%;
 
 
@@ -267,7 +267,7 @@ body{
 	margin-top: 0px;
 	margin-bottom: 0px;
 	width: 100%;
-	background-image: url(Images/Local%20Farmers/piqsels.com-id-szlcc%20-%20Copy.jpg);
+	background-image: url(../Images/Local%20Farmers/piqsels.com-id-szlcc%20-%20Copy.jpg);
 	background-size: 100%;
 
 
@@ -297,7 +297,7 @@ body{
 	margin-top: 0px;
 	margin-bottom: 0px;
 	width: 100%;
-	background-image: url(Images/Job%20Security/piqsels.com-id-jcpre.jpg);
+	background-image: url(../Images/Job%20Security/piqsels.com-id-jcpre.jpg);
 	background-size: 100%;
 
 
@@ -327,7 +327,7 @@ body{
 	margin-top: 0px;
 	margin-bottom: 0px;
 	width: 100%;
-	background-image: url(Images/Food%20Banks/piqsels.com-id-sgtin.jpg);
+	background-image: url(../Images/Food%20Banks/piqsels.com-id-sgtin.jpg);
 	background-size: 100%;
 
 
@@ -356,7 +356,7 @@ body{
 	margin-top: 0px;
 	margin-bottom: 0px;
 	width: 100%;
-	background-image: url(Images/Zero%20Waste/piqsels.com-id-jhrvr.jpg);
+	background-image: url(../Images/Zero%20Waste/piqsels.com-id-jhrvr.jpg);
 	background-size: 100%;
 
 
