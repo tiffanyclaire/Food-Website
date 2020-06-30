@@ -1,0 +1,442 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300&display=swap');
+
+/* basic styling/layout*/
+
+	
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+/* NEW NAVBAR*/
+.navbar {
+	background-color: white;
+
+}
+
+.navbar-brand {
+	font-family: poppins;
+	font-weight: bold;
+}
+.navbar-nav {
+	font-size: 15px;
+	font-family: poppins;
+
+}
+
+/* hero banner Jumbotron*/
+
+.jumbotron {
+	align-items: center;
+	display: flex;
+	background: url(Images/Home_Banner.png);
+	background-size: cover;
+	height: 70vh;
+	color: white;
+	margin-bottom:0 !important;
+}
+
+.btn-primary{
+	background-color: #5CC489 !important;
+	border-color: #41bf78 !important;
+	padding: 5px;
+}
+
+
+/*food issues grid*/
+
+
+#food-issues {
+	text-align: center;
+	
+	
+}
+
+#food-issues h3{
+	margin:20px;
+}
+
+
+.img-container img{
+	width: 400px;
+	height: 250px;
+	object-fit: cover;
+	
+
+}
+
+/* Main Topics Catergories*/
+
+
+
+
+/* shop local */
+
+.search-banner {
+	height:800px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 100%;
+	background-image: url(Images/Shop%20Local/ShopLocalBanner.png);
+	background-size: cover
+
+}
+
+.search-title{
+	font-family: poppins;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.4;
+}
+
+
+/* Carbon Footprint */
+
+.carbon-footprint-banner {
+	height:500px;
+	background-image: url(Images/Carbon%20Footprint/CarbonFootprintBanner.png);
+	display: block;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 100%;
+
+}
+
+
+    /* Sustainable Diets*/
+.sustainable-diets-banner{
+	height:500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 100%;
+	background-image: url(Images/Sustainable%20Diets/piqsels.com-id-sipsz.jpg);
+	background-size: 100%;
+
+
+	
+}
+
+
+.sustainable-diets-banner > h1{
+	font-family: poppins;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.4;
+
+}
+
+
+.diet-options{
+	display: flex;
+	justify-content: center;
+	
+}
+
+  /* About Page*/
+.about-banner{
+	height:500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 100%;
+	background-image: url(Images/About/piqsels.com-id-szqru.jpg);
+	background-size: 100%;
+
+
+	
+}
+
+
+.about-banner > h1{
+	font-family: poppins;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.4;
+
+}
+
+
+
+ /* Climate Change*/
+.climate-change-banner{
+	height:500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 100%;
+	background-image: url(Images/Climate%20Change/piqsels.com-id-zucwt.jpg);
+	background-size: 100%;
+
+
+	
+}
+
+
+.climate-change-banner > h1{
+	font-family: poppins;
+	color: #41bf78;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.4;
+
+}
+
+
+
+
+    /*Livestock*/
+.livestock-banner{
+	height:500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 100%;
+	background-image: url(Images/Livestock/piqsels.com-id-zkyvr.jpg);
+	background-size: 100%;
+
+
+	
+}
+
+
+.livestock-banner > h1{
+	font-family: poppins;
+	color: #41bf78;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.4;
+
+} 
+
+
+
+
+
+  /*Food Security*/
+.food-security-banner{
+	height:500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 100%;
+	background-image: url(Images/Food%20Security/piqsels.com-id-sidje.jpg);
+	background-size: 100%;
+
+
+	
+}
+
+
+.food-security-banner > h1{
+	font-family: poppins;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.4;
+
+} 
+
+
+
+
+  /*Local Farmers*/
+.local-farmers-banner{
+	height:500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 100%;
+	background-image: url(Images/Local%20Farmers/piqsels.com-id-szlcc%20-%20Copy.jpg);
+	background-size: 100%;
+
+
+
+	
+}
+
+
+.local-farmers-banner > h1{
+	font-family: poppins;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.4;
+
+} 
+
+
+
+
+    /*Job Security*/
+.job-security-banner{
+	height:500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 100%;
+	background-image: url(Images/Job%20Security/piqsels.com-id-jcpre.jpg);
+	background-size: 100%;
+
+
+	
+}
+
+
+.job-security-banner > h1{
+	font-family: poppins;
+	color: #41bf78;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.4;
+
+} 
+
+
+
+
+
+  /*Local Farmers*/
+.local-food-banks-banner{
+	height:500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 100%;
+	background-image: url(Images/Food%20Banks/piqsels.com-id-sgtin.jpg);
+	background-size: 100%;
+
+
+
+	
+}
+
+
+.local-food-banks-banner > h1{
+	font-family: poppins;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.4;
+
+} 
+
+
+
+  /*Zero waste*/
+.zero-waste-banner{
+	height:500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 100%;
+	background-image: url(Images/Zero%20Waste/piqsels.com-id-jhrvr.jpg);
+	background-size: 100%;
+
+
+
+	
+}
+
+
+.zero-waste-banner > h1{
+	font-family: poppins;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.4;
+
+} 
+
+
+
+/*carbon footprint table responsive*/
+
+#carbon-footprint-table {
+	width: 70%;
+	border-collapse: collapse;
+	margin: auto;
+
+}
+
+
+#carbon-footprint-table td,#carbon-footprint-table th{
+         padding: 12px 15px;
+         border: 1px  solid #a9a9a9;
+        text-align: center;
+}
+
+#carbon-footprint-table th {
+      background-color: #3CB371;
+      color: #FFFFFF;
+}
+ 
+
+#carbon-footprint-table tbody tr:nth-child(even){
+    background-color:#F7F7F7;
+}
+
+@media(max-width: 500px){
+
+	#carbon-footprint-table {
+		width: 100%;
+	}
+	#carbon-footprint-table thead{
+		display: none;
+	}
+
+    #carbon-footprint-table tbody, #carbon-footprint-table tr, #carbon-footprint-table td{
+	display:block;
+    }
+
+    #carbon-footprint-table tr{
+    	margin-bottom: 15px;
+    }
+    
+
+    #carbon-footprint-table td{
+    	text-align: right;
+    	padding-left: 50%;
+    	position: relative;
+
+    }
+
+    #carbon-footprint-table td::before{
+    	content: attr(data-label);
+    	position: absolute;
+    	left:0;
+    	width:50%;
+    	padding-left: 15px;
+    	font-size: 15px;
+    	font-weight: bold;
+    	text-align: left;
+
+
+    }
+
